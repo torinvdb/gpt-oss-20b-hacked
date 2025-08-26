@@ -1,0 +1,56 @@
+# Ignore all generated data, logs, and reports from text generation experiments
+
+# cot-reward-hacking experiment outputs
+results/cot-reward-hacking/*.log
+results/cot-reward-hacking/*.aux
+results/cot-reward-hacking/*.out
+results/cot-reward-hacking/*.synctex.gz
+results/cot-reward-hacking/*.toc
+results/cot-reward-hacking/*.json
+results/cot-reward-hacking/*.fdb_latexmk
+results/cot-reward-hacking/*.fls
+
+# channel-cot-spoofing experiment outputs
+results/channel-cot-spoofing/*.log
+results/channel-cot-spoofing/*.aux
+results/channel-cot-spoofing/*.out
+results/channel-cot-spoofing/*.synctex.gz
+results/channel-cot-spoofing/*.toc
+results/channel-cot-spoofing/*.json
+results/channel-cot-spoofing/*.fdb_latexmk
+results/channel-cot-spoofing/*.fls
+
+# malware-generation experiment outputs
+results/malware-generation/*.log
+results/malware-generation/*.aux
+results/malware-generation/*.out
+results/malware-generation/*.synctex.gz
+results/malware-generation/*.toc
+results/malware-generation/*.json
+results/malware-generation/*.fdb_latexmk
+results/malware-generation/*.fls
+
+# latex build artifacts for reports (keep PDFs and TEX!)
+results/*/*.aux
+results/*/*.out
+results/*/*.synctex.gz
+results/*/*.toc
+results/*/*.fdb_latexmk
+results/*/*.fls
+
+# General experiment result files (keep PDFs and TEX!)
+*.log
+*.aux
+*.out
+*.synctex.gz
+*.toc
+*.json
+*.fdb_latexmk
+*.fls
+
+# Always keep .pdf and .tex
+!*.pdf
+!*.tex
+
+# Mac Files
+*.DS_Store
