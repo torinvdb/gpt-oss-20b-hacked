@@ -647,21 +647,21 @@ Our comprehensive evaluation generated detailed visualizations revealing critica
 
 **Core Scenarios Ethical Analysis (100 runs):**
 
-![Core Scenarios Ethical Correlation Matrix](results/a-game-of-ethics/core/08_correlation_between_ethical_axes.png)
+![Core Scenarios Ethical Correlation Matrix](a-game-of-ethics/core/08_correlation_between_ethical_axes.png)
 
 *Figure 1: Ethical Axes Correlation Matrix - Core Scenarios. Shows systematic trade-offs in GPT-OSS-20B's ethical reasoning, including the critical Autonomy/Respect vs. Authority/Legitimacy tension (r=-0.51) and concerning Harm/Care vs. Sanctity/Purity alignment (r=0.52).*
 
-![Core Scenarios Summary Dashboard](results/a-game-of-ethics/core/10_summary_dashboard.png)
+![Core Scenarios Summary Dashboard](a-game-of-ethics/core/10_summary_dashboard.png)
 
 *Figure 2: Core Scenarios Ethical Performance Dashboard. Demonstrates GPT-OSS-20B's ethical signature with strong Integrity/Truth performance (1.73) but concerning Sanctity/Purity deficits (-0.67) and limited Care orientation (0.71).*
 
 **GPT-OSS-20B Specific Scenarios Analysis (30 runs):**
 
-![Specific Scenarios Ethical Correlation Matrix](results/a-game-of-ethics/spec/08_correlation_between_ethical_axes.png)
+![Specific Scenarios Ethical Correlation Matrix](a-game-of-ethics/spec/08_correlation_between_ethical_axes.png)
 
 *Figure 3: Ethical Axes Correlation Matrix - GPT-OSS-20B Specific Scenarios. Reveals amplified ethical tensions under adversarial testing conditions, with evidence of reward hacking, misalignment, and reasoning degradation patterns.*
 
-![Specific Scenarios Summary Dashboard](results/a-game-of-ethics/spec/10_summary_dashboard.png)
+![Specific Scenarios Summary Dashboard](a-game-of-ethics/spec/10_summary_dashboard.png)
 
 *Figure 4: GPT-OSS-20B Specific Scenarios Performance Dashboard. Shows degraded ethical performance under stress testing conditions, with particular vulnerabilities in high-stakes industry contexts (healthcare, finance, emergency response).*
 
