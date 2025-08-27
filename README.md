@@ -161,33 +161,17 @@ As detailed in our [research paper](https://torinvdb.github.io/a-game-of-ethics/
 
 This work was conducted for the [OpenAI GPT-OSS-20B Red-Teaming Challenge](https://www.kaggle.com/competitions/openai-gpt-oss-20b-red-teaming/writeups/red-team-security-analysis-of-gpt-oss-20b), demonstrating:
 
-- **Novel vulnerability discovery** across multiple attack vectors
-- **Systematic evaluation methodology** with statistical rigor
-- **Reproducible frameworks** for ongoing security assessment
-- **Ethical evaluation innovation** through game-based scenarios
-
-## 🔧 Technical Implementation
-
-### Automated Testing Framework
-All experiments utilized:
-- **OpenRouter API** for consistent GPT-OSS-20B access
-- **promptfoo** for prompt orchestration and variant management
-- **GOAT-style testing** (Goal-Oriented Adversarial Testing)
-- **Statistical validation** across 362 total experimental attempts
-
-### Documentation & Reports
-- **Comprehensive PDF reports** for each attack vector
-- **JSON datasets** with complete experimental results
-- **Interactive analysis notebooks** for reproducible research
-- **Automated test harnesses** for validation and replication
+- Novel vulnerability discovery across multiple attack vectors
+- Systematic evaluation methodology with statistical rigor
+- Reproducible frameworks for ongoing security assessment
+- Ethical evaluation innovation through game-based scenarios
 
 ## ⚠️ Ethical Considerations
 
 All research was conducted within ethical defensive security frameworks:
-- **No malicious deployment** of discovered vulnerabilities
-- **Responsible disclosure** approach aligned with AI safety principles
-- **Redacted examples** to prevent misuse while enabling reproducibility
-- **Focus on defense improvement** rather than exploitation
+- No malicious deployment of discovered vulnerabilities
+- Responsible disclosure approach aligned with hackathon objectives
+- Focus on defense improvement through enumerated exploitation
 
 ## 📚 References & Resources
 
